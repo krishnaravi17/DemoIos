@@ -27,7 +27,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return arre2.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) ->
+        
+        UITableViewCell {
         
         let cell:TableViewCell=tableView.dequeueReusableCell(withIdentifier: "cell")as! TableViewCell
         
@@ -43,7 +45,15 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return cell
     }
     
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detail:DetailsViewController=self.storyboard?.instantiateViewController(withIdentifier: "DetailsViewController")as!DetailsViewController
+        
+        detail.strlbl1=arre1[indexPath.row]
+        detail.strlbl2=arre2[indexPath.row]
+        detail.strImg=arrimage[indexPath.row]
+        
+        self.navigationController?.pushViewController(detail, animated: true)
+    }
     
 
 }
