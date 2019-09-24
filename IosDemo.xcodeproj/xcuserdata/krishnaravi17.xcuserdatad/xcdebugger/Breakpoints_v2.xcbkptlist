@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosDemo/Switch/SwitchViewController.swift"
+            timestampString = "590986927.804521"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "SwitchViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosDemo.SwitchViewController.switchVar.getter : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "IosDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krishnaravi17/Documents/GitHub/DemoIos/IosDemo/Switch/SwitchViewController.swift"
+                  timestampString = "590984050.113025"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosDemo.SwitchViewController.switchVar.setter : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "IosDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krishnaravi17/Documents/GitHub/DemoIos/IosDemo/Switch/SwitchViewController.swift"
+                  timestampString = "590984050.165434"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosDemo.SwitchViewController.switchVar.modify : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "IosDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krishnaravi17/Documents/GitHub/DemoIos/IosDemo/Switch/SwitchViewController.swift"
+                  timestampString = "590984050.187876"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosDemo.SwitchViewController.switchVar.modify : Swift.Optional&lt;__C.UISwitch&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "IosDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krishnaravi17/Documents/GitHub/DemoIos/IosDemo/Switch/SwitchViewController.swift"
+                  timestampString = "590984050.2025191"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosDemo.SwitchViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IosDemo.SwitchViewController"
+                  moduleName = "IosDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krishnaravi17/Documents/GitHub/DemoIos/IosDemo/Switch/SwitchViewController.swift"
+                  timestampString = "590984050.21681"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosDemo.SwitchViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IosDemo.SwitchViewController&gt;"
+                  moduleName = "IosDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krishnaravi17/Documents/GitHub/DemoIos/IosDemo/Switch/SwitchViewController.swift"
+                  timestampString = "590984050.2361881"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosDemo/AppDelegate.swift"
+            timestampString = "590985814.8170919"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "applicationWillResignActive(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -16,6 +16,10 @@
 		2D8256B823305FCE00212112 /* IosDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8256B723305FCE00212112 /* IosDemoUITests.swift */; };
 		2D8E4CD52331C56B006F838D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8E4CD42331C56B006F838D /* TableViewCell.swift */; };
 		2D8E4CD92333233C006F838D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8E4CD82333233C006F838D /* DetailsViewController.swift */; };
+		2DD9228F23399CB100CF7D6A /* TableviewMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9228E23399CB100CF7D6A /* TableviewMainViewController.swift */; };
+		2DD922942339A21900CF7D6A /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD922932339A21800CF7D6A /* SwitchViewController.swift */; };
+		2DD922962339B49D00CF7D6A /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD922952339B49C00CF7D6A /* StepperViewController.swift */; };
+		2DD922992339BCA300CF7D6A /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD922982339BCA300CF7D6A /* SegmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +54,11 @@
 		2D8256B723305FCE00212112 /* IosDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosDemoUITests.swift; sourceTree = "<group>"; };
 		2D8256B923305FCE00212112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D8E4CD42331C56B006F838D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		2D8E4CD82333233C006F838D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = ../DetailsViewController.swift; sourceTree = "<group>"; };
+		2D8E4CD82333233C006F838D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		2DD9228E23399CB100CF7D6A /* TableviewMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewMainViewController.swift; sourceTree = "<group>"; };
+		2DD922932339A21800CF7D6A /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		2DD922952339B49C00CF7D6A /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
+		2DD922982339BCA300CF7D6A /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +91,6 @@
 			children = (
 				2D82569623305FB700212112 /* IosDemo */,
 				2D8256AB23305FCE00212112 /* IosDemoTests */,
-				2D8256B623305FCE00212112 /* IosDemoUITests */,
 				2D82569523305FB700212112 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,10 +108,13 @@
 		2D82569623305FB700212112 /* IosDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2D8E4CD82333233C006F838D /* DetailsViewController.swift */,
+				2DD922972339BC8800CF7D6A /* Segment */,
+				2DD922922339A1EB00CF7D6A /* collectionView */,
+				2DD922912339A1E100CF7D6A /* Stepper */,
+				2DD922902339A1D500CF7D6A /* Switch */,
+				2DD9228D23399C3F00CF7D6A /* tableViewsController */,
 				2D82569723305FB700212112 /* AppDelegate.swift */,
 				2D82569923305FB700212112 /* ViewController.swift */,
-				2D8E4CD42331C56B006F838D /* TableViewCell.swift */,
 				2D82569B23305FB700212112 /* Main.storyboard */,
 				2D82569E23305FCE00212112 /* Assets.xcassets */,
 				2D8256A023305FCE00212112 /* LaunchScreen.storyboard */,
@@ -117,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				2D8256AC23305FCE00212112 /* IosDemoTests.swift */,
+				2D8256B623305FCE00212112 /* IosDemoUITests */,
 				2D8256AE23305FCE00212112 /* Info.plist */,
 			);
 			path = IosDemoTests;
@@ -129,6 +140,47 @@
 				2D8256B923305FCE00212112 /* Info.plist */,
 			);
 			path = IosDemoUITests;
+			sourceTree = "<group>";
+		};
+		2DD9228D23399C3F00CF7D6A /* tableViewsController */ = {
+			isa = PBXGroup;
+			children = (
+				2D8E4CD82333233C006F838D /* DetailsViewController.swift */,
+				2D8E4CD42331C56B006F838D /* TableViewCell.swift */,
+				2DD9228E23399CB100CF7D6A /* TableviewMainViewController.swift */,
+			);
+			path = tableViewsController;
+			sourceTree = "<group>";
+		};
+		2DD922902339A1D500CF7D6A /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				2DD922932339A21800CF7D6A /* SwitchViewController.swift */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		2DD922912339A1E100CF7D6A /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				2DD922952339B49C00CF7D6A /* StepperViewController.swift */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		2DD922922339A1EB00CF7D6A /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+		2DD922972339BC8800CF7D6A /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				2DD922982339BCA300CF7D6A /* SegmentViewController.swift */,
+			);
+			path = Segment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD922992339BCA300CF7D6A /* SegmentViewController.swift in Sources */,
+				2DD922942339A21900CF7D6A /* SwitchViewController.swift in Sources */,
 				2D8E4CD52331C56B006F838D /* TableViewCell.swift in Sources */,
+				2DD9228F23399CB100CF7D6A /* TableviewMainViewController.swift in Sources */,
 				2D82569A23305FB700212112 /* ViewController.swift in Sources */,
+				2DD922962339B49D00CF7D6A /* StepperViewController.swift in Sources */,
 				2D82569823305FB700212112 /* AppDelegate.swift in Sources */,
 				2D8E4CD92333233C006F838D /* DetailsViewController.swift in Sources */,
 			);
