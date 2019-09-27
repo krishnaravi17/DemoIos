@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4E6C9E233DAB58004EC222 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E6C9D233DAB58004EC222 /* MenuViewController.swift */; };
+		2D4E6CA0233DABDA004EC222 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E6C9F233DABDA004EC222 /* MenuTableViewCell.swift */; };
 		2D82569823305FB700212112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D82569723305FB700212112 /* AppDelegate.swift */; };
 		2D82569A23305FB700212112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D82569923305FB700212112 /* ViewController.swift */; };
 		2D82569D23305FB700212112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D82569B23305FB700212112 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 		2DD922942339A21900CF7D6A /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD922932339A21800CF7D6A /* SwitchViewController.swift */; };
 		2DD922962339B49D00CF7D6A /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD922952339B49C00CF7D6A /* StepperViewController.swift */; };
 		2DD922992339BCA300CF7D6A /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD922982339BCA300CF7D6A /* SegmentViewController.swift */; };
+		2DE1C5D4233D982C009A0396 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1C5D2233D982B009A0396 /* SWRevealViewController.m */; };
+		2DE1C5D7233D9DC7009A0396 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1C5D6233D9DC7009A0396 /* SideMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D4E6C9D233DAB58004EC222 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2D4E6C9F233DABDA004EC222 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		2D82569423305FB700212112 /* IosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D82569723305FB700212112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D82569923305FB700212112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +65,10 @@
 		2DD922932339A21800CF7D6A /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 		2DD922952339B49C00CF7D6A /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
 		2DD922982339BCA300CF7D6A /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		2DE1C5D1233D9829009A0396 /* IosDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IosDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DE1C5D2233D982B009A0396 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		2DE1C5D3233D982C009A0396 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		2DE1C5D6233D9DC7009A0396 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +118,8 @@
 		2D82569623305FB700212112 /* IosDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2DE1C5D5233D9D9E009A0396 /* SideMenu */,
+				2DE1C5D0233D97FB009A0396 /* SWRevealViewController */,
 				2DD922972339BC8800CF7D6A /* Segment */,
 				2DD922922339A1EB00CF7D6A /* collectionView */,
 				2DD922912339A1E100CF7D6A /* Stepper */,
@@ -183,6 +195,26 @@
 			path = Segment;
 			sourceTree = "<group>";
 		};
+		2DE1C5D0233D97FB009A0396 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1C5D3233D982C009A0396 /* SWRevealViewController.h */,
+				2DE1C5D2233D982B009A0396 /* SWRevealViewController.m */,
+				2DE1C5D1233D9829009A0396 /* IosDemo-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		2DE1C5D5233D9D9E009A0396 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1C5D6233D9DC7009A0396 /* SideMenuViewController.swift */,
+				2D4E6C9D233DAB58004EC222 /* MenuViewController.swift */,
+				2D4E6C9F233DABDA004EC222 /* MenuTableViewCell.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,6 +283,7 @@
 				TargetAttributes = {
 					2D82569323305FB700212112 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					2D8256A723305FCE00212112 = {
 						CreatedOnToolsVersion = 10.3;
@@ -316,11 +349,15 @@
 			files = (
 				2DD922992339BCA300CF7D6A /* SegmentViewController.swift in Sources */,
 				2DD922942339A21900CF7D6A /* SwitchViewController.swift in Sources */,
+				2D4E6CA0233DABDA004EC222 /* MenuTableViewCell.swift in Sources */,
 				2D8E4CD52331C56B006F838D /* TableViewCell.swift in Sources */,
 				2DD9228F23399CB100CF7D6A /* TableviewMainViewController.swift in Sources */,
 				2D82569A23305FB700212112 /* ViewController.swift in Sources */,
+				2DE1C5D4233D982C009A0396 /* SWRevealViewController.m in Sources */,
+				2D4E6C9E233DAB58004EC222 /* MenuViewController.swift in Sources */,
 				2DD922962339B49D00CF7D6A /* StepperViewController.swift in Sources */,
 				2D82569823305FB700212112 /* AppDelegate.swift in Sources */,
+				2DE1C5D7233D9DC7009A0396 /* SideMenuViewController.swift in Sources */,
 				2D8E4CD92333233C006F838D /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IosDemo/Info.plist;
@@ -506,6 +544,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = testing.IosDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "IosDemo/SWRevealViewController/IosDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -515,6 +555,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IosDemo/Info.plist;
@@ -525,6 +566,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = testing.IosDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "IosDemo/SWRevealViewController/IosDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

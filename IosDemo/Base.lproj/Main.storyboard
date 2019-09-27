@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="psm-HF-NGQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6ih-nh-V89">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -90,11 +90,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Table View Data" id="To9-V2-6yU"/>
+                    <navigationItem key="navigationItem" title="Table View Data" id="To9-V2-6yU">
+                        <barButtonItem key="leftBarButtonItem" image="menu" style="plain" id="kkz-BL-Pbr"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2407" y="-282"/>
+            <point key="canvasLocation" x="5223.1999999999998" y="-282.00899550224892"/>
         </scene>
         <!--Switch View Controller-->
         <scene sceneID="6vd-6X-Hq0">
@@ -157,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDm-oq-i5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2412" y="438.53073463268368"/>
+            <point key="canvasLocation" x="4290.3999999999996" y="438.53073463268368"/>
         </scene>
         <!--Stepper View Controller-->
         <scene sceneID="0ba-bu-jMX">
@@ -253,7 +255,78 @@
             </objects>
             <point key="canvasLocation" x="2412" y="1894"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu View Controller-->
+        <scene sceneID="gRZ-iH-KbO">
+            <objects>
+                <viewController id="mhq-eK-gXh" customClass="MenuViewController" customModule="IosDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u9G-PK-NrA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8NY-rW-wTR">
+                                <rect key="frame" x="0.0" y="64" width="256" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BIa-Nd-WKV">
+                                        <rect key="frame" x="8" y="0.0" width="248" height="595"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="9X7-hC-EXj" customClass="MenuTableViewCell" customModule="IosDemo" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="28" width="248" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9X7-hC-EXj" id="ZqM-BZ-41B">
+                                                    <rect key="frame" x="0.0" y="0.0" width="248" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xcq-ul-UAR">
+                                                            <rect key="frame" x="0.0" y="-12" width="58" height="66"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVY-qQ-Alc">
+                                                            <rect key="frame" x="53" y="0.0" width="195" height="44"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="img" destination="xcq-ul-UAR" id="r7V-6g-eCR"/>
+                                                    <outlet property="label" destination="OVY-qQ-Alc" id="TLe-Op-5Dw"/>
+                                                </connections>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="mhq-eK-gXh" id="3lj-Kz-GKJ"/>
+                                            <outlet property="delegate" destination="mhq-eK-gXh" id="5b6-mR-WD4"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5Yq-iD-AhH"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TmC-I0-1h2">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" style="plain" id="wKV-4w-rei">
+                            <connections>
+                                <action selector="barButton:" destination="mhq-eK-gXh" id="Xgk-7M-5LY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="SideBarview" destination="8NY-rW-wTR" id="50r-gu-ZBI"/>
+                        <outlet property="TableView" destination="BIa-Nd-WKV" id="rYh-9J-qEc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tf3-1l-mHG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2144.8000000000002" y="73.313343328335833"/>
+        </scene>
+        <!--DEMO APP IOS-->
         <scene sceneID="zsr-Mw-MEt">
             <objects>
                 <viewController id="psm-HF-NGQ" customClass="ViewController" customModule="IosDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -339,10 +412,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XMY-uW-rr5"/>
                     </view>
+                    <navigationItem key="navigationItem" title="DEMO APP IOS" id="MW4-HU-srd">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="Up4-Fc-agD"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="Up4-Fc-agD" id="9aN-QG-Zmp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5o-MH-fAH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1175" y="80"/>
+            <point key="canvasLocation" x="3052" y="79.610194902548727"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="YZq-rA-8e4">
@@ -405,7 +484,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MMt-KP-wrU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3190" y="-282"/>
+            <point key="canvasLocation" x="6007.1999999999998" y="-282.00899550224892"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bLU-Kz-IdC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6ih-nh-V89" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dRs-5k-CvE">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mhq-eK-gXh" kind="relationship" relationship="rootViewController" id="oNc-P8-7aq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ldh-I5-emd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205.5999999999999" y="73.313343328335833"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menu" width="64" height="64"/>
+    </resources>
 </document>
